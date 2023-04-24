@@ -1,7 +1,8 @@
 name: Book
 on:
   push:
-    branches: [master]
+    branches: [master, workflow-pages]
+  workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
